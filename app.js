@@ -15,9 +15,10 @@ let Bait1=1024
 let mehabait=1024
 let hikabait=1024
 let kikobait=1024
+let gig10=10
 
-console.log(`№6.Байт в килобайте: ${Bait1*1} байт`)
-console.log(`№7.Байт в мегабайте: ${kikobait*Bait1} байт`)
-console.log(`№8.Байт в гигабайте: ${kikobait*Bait1*mehabait} байт`)
+console.log(`№6.Байт в мегабайте: ${kikobait*Bait1} байт`)
+console.log(`№7.Байт в гигабайте: ${mehabait*kikobait*Bait1} байт`)
+console.log(`№8.Байт в 10 гигабайтах: ${gig10*kikobait*Bait1*mehabait} байт`)
 console.log(`№9.Байт в терабайте: ${kikobait*Bait1*hikabait*mehabait} байт`)
 console.log(`№10.Килобайт в терабайте: ${kikobait*hikabait*mehabait} килобайт`)
